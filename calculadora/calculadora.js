@@ -8,5 +8,5 @@ function reseta(){
 }
 function calcular(){
     resultado = eval(valor);
-    document.calc.visor.value = resultado;
+    document.calc.visor.value = resultado.toLocaleString('pt-br');
 }
